@@ -1,4 +1,4 @@
-name: Inputs and Outputs Lab
+name: Tagging Lab
 on:
   push:
    tags:
