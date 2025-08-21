@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
    inputs:
     username:
-     description: "eneter your name"
+     description: "Enter user name"
      required: true
      default: "Guest"
 
