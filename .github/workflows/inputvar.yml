@@ -21,7 +21,7 @@ jobs:
           DAY_OF_WEEK: sunday
           Greeting: Hello
       - name: print username
-        run: echo "${{inputs.username}}">> $GITHUB_OUTPUT
+        run: echo "${{inputs.username}}" >> $GITHUB_OUTPUT
 
   create_user:
       runs-on: ubuntu-latest   
