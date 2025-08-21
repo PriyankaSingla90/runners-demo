@@ -1,0 +1,17 @@
+name: Scope of variable day
+
+on:
+  workflow_dispatch
+
+jobs:
+  greeting_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Say Hello Mona it's Monday"
+        run: echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
+        env:
+          First_Name: Mona
+          DAY_OF_WEEK: Monday
+          Greeting: Hello
+      - name: "Say Hello Priyanka it's Monday"
+        run: echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
