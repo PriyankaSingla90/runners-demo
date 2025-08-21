@@ -34,7 +34,7 @@ jobs:
       steps:
         - name: test output
           run: |
-            echo "User Names is ${{needs.greeting_job.outputs.user_name}}"
+            echo "User Names is ${{ needs.greeting_job.outputs.user_name }}"
         
     
        
