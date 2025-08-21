@@ -20,6 +20,6 @@ jobs:
           First_Name: Priyanka
           DAY_OF_WEEK: sunday
           Greeting: Hello
-      - name: print usename
+      - name: print username
         run: echo "${{inputs.username}}"
        
